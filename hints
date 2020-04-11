@@ -1,0 +1,8 @@
+1st create & execute Dockerfile by:
+>> docker build .
+
+2nd create & execute docker-compose.yml by:
+>> docker-compose build
+
+3rd create django project by docker-compose and sh -c by:
+>> docker-compose run app sh -c "django-admin.py startproject app ."
