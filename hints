@@ -6,3 +6,8 @@
 
 3rd create django project by docker-compose and sh -c by:
 >> docker-compose run app sh -c "django-admin.py startproject app ."
+
+4th syn our git push origin to travis-ci & create .travis.yml
+
+5th create flake8 config to django project .flake8
+
